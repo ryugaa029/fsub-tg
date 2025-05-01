@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from logging import basicConfig, INFO, WARNING, getLogger, Logger
 
 
-load_dotenv("config.env")
+load_dotenv(".env")
 
 BOT_TOKEN = getenv("BOT_TOKEN")
 
